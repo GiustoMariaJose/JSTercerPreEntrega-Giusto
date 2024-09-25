@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercer Pre Entrega</title>
+    <link rel="shortcut icon" href="./Perrito.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1>Sistema de búsqueda de terrenos </h1>
+    <form id="formulario">
+        <label for="descripcion">Descripción: Barrio y m2. Ej: Las Cañitas 500m2</label>
+        <input id="descripcion" type="text" />
+        <br /><br />
+        
+  
+        <label for="precio">Precio $</label>
+        <input id="precio" type="number" />
+        <br /><br />
+
+        <button>Ingresar</button>
+
+        <br /><br />
+
+    </form>
+
+    <h2>Ver todos los terrenos ingresados:</h2>
+    <button id="verResultados">Ver Resultados</button>
+    <div id="contenedorResultados"></div>
+
+    <form id="formularioMaxMin">
+        <h2>Ingresar presupuesto disponible en dólares:</h2>
+        <label for="presMaximo">Presupuesto Máximo $</label>
+        <input id="presMaximo" type="number" />
+        <br /><br />
+
+        <label for="presMinimo">Presupuesto Mínimo $</label>
+        <input id="presMinimo" type="number" />
+        <button id="ingresoMaxMin">Ingresar</button>
+    </form>
+
+    
+
+    <h2>Ver terrenos seleccionados y descartados:</h2>
+    <button id="verSeleccionadosYdescartados">Ver Resultados</button>
+    <div id="contenedorSeleccionados"></div>
+    <div id="contenedorDescartados"></div>
+
+
+  <script src="./JS/scripts.js"></script>  
+</body>
+</html>
